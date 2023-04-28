@@ -1,5 +1,6 @@
 import { Header } from "../../components/Header";
 import { Summary } from "../../components/Summary";
+import { SearchForm } from "./components/SearchForm";
 import { PriceRighlight, TransactionTable, TransactionsContainer } from "./styles";
 
 export function Transactions() {
@@ -7,8 +8,8 @@ export function Transactions() {
         <div>
             <Header />
             <Summary />
-
             <TransactionsContainer>
+            <SearchForm />
                 <TransactionTable>
                     <tbody>
                         <tr>
