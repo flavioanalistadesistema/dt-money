@@ -30,7 +30,7 @@ export const TransactionTable = styled.table`
 `
 
 interface PriceRighlightProps {
-    variant?: 'income'| 'oncome'
+    variant?: 'income'| 'outcome'
 }
 
 export const PriceRighlight = styled.span<PriceRighlightProps>`
