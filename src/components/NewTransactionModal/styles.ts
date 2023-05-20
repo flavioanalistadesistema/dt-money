@@ -76,7 +76,7 @@ export const CloseButton = styled(Dialog.Close)`
     line-height: 0;
 `
 
-export const TransactionType = styled(RadioGroup.RadioGroup)`
+export const TransactionType = styled(RadioGroup.Root)`
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 1rem;
