@@ -1,29 +1,60 @@
 {
-    "transactions": [
-        {
-            "id": 1,
-            "description": "Desenvolvimento de site",
-            "type": "income",
-            "category": "Venda",
-            "price": 14000,
-            "createdAt": "2023-05-09T22:46:16.435Z"
-        },
-        {
-            "id": 2,
-            "description": "Pastel",
-            "type": "outcome",
-            "category": "Pastelaria",
-            "price": 10,
-            "createdAt": "2023-05-09T22:30:16.435Z"
-        },
-        {
-            "id": 3,
-            "description": "Teclado Mecanico",
-            "type": "outcome",
-            "category": "Tecnologia",
-            "price": 5000,
-            "createdAt": "2023-05-10T22:30:16.435Z"
-        }       
-
-    ]
+  "transactions": [
+    {
+      "id": 1,
+      "description": "Desenvolvimento de site",
+      "type": "income",
+      "category": "Venda",
+      "price": 14000,
+      "createdAt": "2023-05-09T22:46:16.435Z"
+    },
+    {
+      "id": 2,
+      "description": "Pastel",
+      "type": "outcome",
+      "category": "Pastelaria",
+      "price": 10,
+      "createdAt": "2023-05-09T22:30:16.435Z"
+    },
+    {
+      "id": 3,
+      "description": "Teclado Mecanico",
+      "type": "outcome",
+      "category": "Tecnologia",
+      "price": 5000,
+      "createdAt": "2023-05-10T22:30:16.435Z"
+    },
+    {
+      "description": "Pastel",
+      "price": 10,
+      "category": "Feira",
+      "type": "outcome",
+      "createdAt": "2023-05-25T23:14:50.459Z",
+      "id": 4
+    },
+    {
+      "description": "Banana",
+      "price": 10,
+      "category": "Feira",
+      "type": "outcome",
+      "createdAt": "2023-05-25T23:16:30.137Z",
+      "id": 5
+    },
+    {
+      "description": "Laranja ",
+      "price": 12,
+      "category": "Feira",
+      "type": "outcome",
+      "createdAt": "2023-05-25T23:24:06.226Z",
+      "id": 6
+    },
+    {
+      "description": "Uva",
+      "price": 12,
+      "category": "Feira",
+      "type": "outcome",
+      "createdAt": "2023-05-26T00:46:50.936Z",
+      "id": 7
+    }
+  ]
 }
