@@ -1,0 +1,20 @@
+{
+    "transactions" : [
+        {
+            "id": 1,
+            "description": "Monitor Odissey G9",
+            "price": 10000,
+            "category": "Eletrônicos",
+            "type": "outcome",
+            "createadAt": "2021-01-01T00:00:00.000Z"
+        },
+        {
+            "id": 2,
+            "description": "Desenvolvimento site",
+            "price": 20000,
+            "category": "Desenvovimento",
+            "type": "income",
+            "createadAt": "2021-02-01T00:00:00.000Z"
+        }
+    ]
+}
