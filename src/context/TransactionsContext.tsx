@@ -2,24 +2,21 @@ import { createContext, useEffect, useState } from "react";
 
 interface Transaction {
     description: string;
-    price: string;
+    price: number;
     category: string;
     type: 'income' | 'outcome';
-    createdAt: string;
+    createadAt: string;
 }
 
 interface ContextType {
     transactions: Transaction[]
 }
 
-
-
 export const TransactionContext = createContext({} as ContextType)
 
 export function TransactionProvider({ children }: any) {  
     
     const [transactions, setTransactions] = useState<Transaction[]>([])
-
 
     async function loadTransactions(){
 
