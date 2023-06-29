@@ -1,20 +1,52 @@
 {
-    "transactions" : [
-        {
-            "id": 1,
-            "description": "Monitor Odissey G9",
-            "price": 10000,
-            "category": "Eletrônicos",
-            "type": "outcome",
-            "createadAt": "2021-01-01T00:00:00.000Z"
-        },
-        {
-            "id": 2,
-            "description": "Desenvolvimento site",
-            "price": 20000,
-            "category": "Desenvovimento",
-            "type": "income",
-            "createadAt": "2021-02-01T00:00:00.000Z"
-        }
-    ]
+  "transactions": [
+    {
+      "id": 1,
+      "description": "Monitor Odissey G9",
+      "price": 10000,
+      "category": "Eletrônicos",
+      "type": "outcome",
+      "createadAt": "2021-01-01T00:00:00.000Z"
+    },
+    {
+      "id": 2,
+      "description": "Desenvolvimento site",
+      "price": 20000,
+      "category": "Desenvovimento",
+      "type": "income",
+      "createadAt": "2021-02-01T00:00:00.000Z"
+    },
+    {
+      "description": "Melancia",
+      "price": 30,
+      "category": "Frutas",
+      "type": "outcome",
+      "createadAt": "2023-06-21T13:56:32.181Z",
+      "id": 3
+    },
+    {
+      "description": "Maça",
+      "price": 15,
+      "category": "Frutas",
+      "type": "outcome",
+      "createadAt": "2023-06-21T14:05:52.880Z",
+      "id": 4
+    },
+    {
+      "description": "Banana",
+      "price": 20,
+      "category": "Frutas",
+      "type": "outcome",
+      "createadAt": "2023-06-21T14:06:10.207Z",
+      "id": 5
+    },
+    {
+      "description": "Sorvete",
+      "price": 4,
+      "category": "Sorveteria",
+      "type": "outcome",
+      "createadAt": "2023-06-29T16:53:57.738Z",
+      "id": 6
+    }
+  ]
 }
