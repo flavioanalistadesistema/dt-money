@@ -9,7 +9,7 @@ import { TransactionsContext } from '../../../../contexts/TransactionsContext'
 export function SearchForm() {
   const { feacthTransaction } = useContext(TransactionsContext)
   const SearchFormSchema = z.object({
-    query: z.string().min(5, { message: 'required' }),
+    query: z.string(),
   })
 
   type SeachFormInputs = z.infer<typeof SearchFormSchema>
